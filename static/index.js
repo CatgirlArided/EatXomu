@@ -335,11 +335,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 49) return '来自Arided的鄙视';
+    if (score <= 99) return 'Xomu看了直摇头';
+    if (score <= 149) return '你就是Xomu亲兄弟？';
+    if (score <= 199) return 'Xomu直呼卧槽';
+    return 'Xomu都看射了';
 }
 
 function toStr(obj) {
